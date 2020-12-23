@@ -1,4 +1,4 @@
-const activefonfig = "dev"
+const activefonfig = "production"
 
 const config = {
   dev:{
@@ -10,7 +10,7 @@ const config = {
   },
   production:{
     url: {
-      api: "",//public
+      api: "https://californian-basin.herokuapp.com",//public
       assets: "",
       origin: "",
     },
